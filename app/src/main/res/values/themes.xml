@@ -1,9 +1,18 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.DAMNPractica4" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-    <style name="Theme.DAMNPractica4" parent="Base.Theme.DAMNPractica4" />
+    <style name="Theme.DAMNPractica4" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/day_primary_blue</item>
+        <item name="colorPrimaryVariant">@color/day_primary_variant_blue</item>
+        <item name="colorOnPrimary">@color/day_on_primary</item>
+        <item name="colorSecondary">@color/day_secondary_light_grey</item>
+        <item name="colorSecondaryVariant">@color/day_secondary_variant_light_grey</item>
+        <item name="colorOnSecondary">@color/day_on_secondary</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/day_background</item>
+        <item name="colorSurface">@color/day_surface</item>
+        <item name="colorOnSurface">@color/day_on_secondary</item>
+        <item name="android:textColorPrimary">@color/day_on_secondary</item>
+
+    </style>
 </resources>
